@@ -1,0 +1,18 @@
+touch junk
+touch LICENSE
+
+--- edit your <name>.txt file --
+
+git add .
+git reset junk
+git reset LICENSE
+
+git commit
+git commit --amend
+
+git add LICENSE
+git commit
+
+rm junk
+
+git status

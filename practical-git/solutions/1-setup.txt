@@ -1,0 +1,11 @@
+
+git --version
+git config --global user.name "Ryan Morris"
+git config --global user.email "me@here.com"
+
+git config --list
+git config user.name
+git config user.email
+
+cat ~/.gitconfig
+

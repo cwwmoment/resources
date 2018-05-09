@@ -1,0 +1,26 @@
+cd ~/
+mkdir about-me
+cd about-me
+git init
+touch ryan.txt
+
+git status
+git diff
+
+git add ryan.txt
+git commit
+
+git log
+git show <commit id>
+
+--- edit the file ---
+
+git status
+git diff
+
+git add ryan.txt
+git status
+git diff
+git diff --staged
+
+git commit

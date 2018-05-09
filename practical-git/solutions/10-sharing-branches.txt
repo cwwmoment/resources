@@ -1,0 +1,24 @@
+cd about-me
+git checkout master
+
+git checkout -b upper-name
+
+--- edit your <name>.txt file ---
+
+git add .
+git commit
+
+git push origin upper-name
+
+--- go look on github/lab ---
+
+--- make another edit ---
+
+git add .
+git commit
+git push origin upper-name
+
+git checkout master
+
+git checkout -b something-else
+git push origin something-else

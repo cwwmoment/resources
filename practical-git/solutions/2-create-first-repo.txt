@@ -1,0 +1,10 @@
+Lab: Create your first repo
+
+mkdir first-repo
+cd first-repo
+git init
+
+git status
+git log
+
+ls -la

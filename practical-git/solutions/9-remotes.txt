@@ -1,0 +1,11 @@
+cd about-me
+
+--- go create the project in github or gitlab and copy the given project url ---
+
+git remote add origin <url>
+git push --u origin master
+
+--- if you are prompted to sign in, type in your username and password from github/lab ---
+
+git remote
+

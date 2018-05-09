@@ -1,0 +1,23 @@
+cd ~/
+
+--- you'll need a repository url ---
+
+git clone <url>
+
+cd <the directory it created>
+
+git status
+
+git checkout -b topic-5
+
+--- edit your page ---
+
+git add .
+git commit
+git push origin topic-5
+
+--- open a merge request in github/lab ---
+
+git fetch
+git merge origin/master
+

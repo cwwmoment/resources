@@ -1,0 +1,21 @@
+git branch
+
+git branch add-readme
+git checkout add-readme
+git log --graph --oneline
+
+touch README
+git add README
+git commit
+
+git checkout master
+git branch add-fav-color
+git checkout add-fav-color
+git log --graph --oneline
+
+--- edit <name>.txt ---
+
+git add ryan.txt
+git commit
+
+git log --graph --oneline

@@ -1,0 +1,28 @@
+git checkout master
+
+git checkout -b red
+
+--- edit <name>.txt ---
+
+git add .
+git commit -m 'Red is my fav'
+
+git checkout master
+git checkout -b blue
+
+--- edit <name>.txt ---
+
+git add .
+git commit -m 'Blue is my fav'
+
+git checkout master
+
+git merge red
+git merge blue
+
+--- resolve conflict! ---
+
+git add .
+git commit
+
+git log

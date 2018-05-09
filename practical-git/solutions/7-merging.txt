@@ -1,0 +1,29 @@
+git checkout master
+
+git merge add-readme
+git log --oneline --graph --all
+
+git branch --merged
+git branch --no-merged
+
+git merge add-fav-color
+git log --oneline --graph --all
+
+git checkout -b add-license
+
+touch LICENSE
+git add .
+git commit -m 'Added license'
+
+--- Edit the LICENSE file ---
+
+git add .
+git commit -m 'Edited license'
+
+git checkout master
+git merge add-license
+
+git log --oneline --graph --all
+
+git branch -d add-readme
+git branch -d add-license

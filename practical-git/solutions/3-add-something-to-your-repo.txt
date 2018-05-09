@@ -1,0 +1,10 @@
+touch someFilename
+echo "Junk" > someFilename
+
+git add someFilename
+git status
+
+git commit
+
+git status
+git log
